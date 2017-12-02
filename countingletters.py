@@ -15,8 +15,4 @@ def ltrs(filename, mychar):
             if letters == mychar: 
                 count = count + 1
     print(count)
-
-while True: 
-    choice = input ("What letter are you looking for in the file?: ")
-    mychar = int(input("Enter the letter you are looking for: "))
 ltrs(filename= "constituton.txt" ,mychar = "t")
